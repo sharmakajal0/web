@@ -1,0 +1,22 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.resume-title {
+    color: magenta;
+}
+td, p, li {
+    font-size: 70%;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: magenta;
+}
+table.skills {
+    padding-left: 50px;
+}
+table.skills td.skill-type {
+    padding-right: 3em;
+}
+.name {
+    padding-left: 45em;
+}
