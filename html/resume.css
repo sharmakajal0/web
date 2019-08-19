@@ -1,13 +1,11 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .resume-title {
     color: magenta;
 }
-td, p, li {
-    font-size: 70%;
-}
+
 h1, h2, h3, h4, h5, h6 {
     color: magenta;
 }
@@ -19,4 +17,23 @@ table.skills td.skill-type {
 }
 .name {
     padding-left: 45em;
+}
+
+.about-section {
+    width: 100%;
+}
+
+.about-section .about-sub-section {
+    display: inline-block;
+    width: 33%;
+}
+
+.about-section .about-sub-section.about-address {
+    text-align: left;
+}
+.about-section .about-sub-section.about-phone {
+    text-align: center;
+}
+.about-section .about-sub-section.about-email {
+    text-align: right;
 }
