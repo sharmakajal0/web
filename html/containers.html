@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Containers</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="custom-test-style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row height">
+            <div class="col custom-border red-border">Column</div>
+            <div class="col custom-border red-border">Column</div>
+            <div class="col custom-border red-border">Column</div>
+            <div class="col custom-border red-border">Column</div>
+        </div>
+    </div>
+    <div class="container" style="min-height: 60px">
+        <div class="row align-items-start">
+            <div class="col custom-border red-border">column one</div>
+            <div class="col custom-border red-border">column two</div>
+            <div class="col custom-border red-border">column three</div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col custom-border red-border">column one</div>
+            <div class="col custom-border red-border">column two</div>
+            <div class="col custom-border red-border">column three</div>
+        </div>
+        <div class="row align-items-end">
+            <div class="col custom-border red-border">column one</div>
+            <div class="col custom-border red-border">column two</div>
+            <div class="col custom-border red-border">column three</div>
+        </div>
+    </div>
+    <hr class="hr-border" />
+    <div class="container custom-border ordered-border">
+        <div class="row">
+            <div class="col-sm-9 pink-border">
+                level 1 col sm 9
+                <div class="row">
+                    <div class="col-8 col-sm-6 pink-border">
+                        level2 col 8 col sm 6
+                    </div>
+                    <div class="col-4 col-sm-6 pink-border">
+                        level2 col 4 col sm 6
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="hr-border" />
+    <div class="d-flex pink-border" style="min-height: 60px">
+        <div class="col red-border">name</div>
+        <div class="col red-border">name</div>
+        <div class="col red-border">name</div>
+    </div>
+    <div class="container">
+        <div class="dropdown">
+            <button>
+                <span>
+                    Mouse Over me
+                </span>
+                <div class="dropdown-content">
+                    Hello World
+                </div>
+            </button>    
+        </div>
+    </div>
+</body>
+</html>
